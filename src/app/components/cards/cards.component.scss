@@ -1,0 +1,70 @@
+.card-container{
+    height: 25%;
+    width: 90%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    box-shadow: 20px 7px 40px #00000014;
+}
+.card-body{
+    display: flex;
+    width: 90%;
+    padding-top: 10px; 
+    padding-left: 10px;
+}
+.avtar-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.card-title{
+    width: 320px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.card-content{
+    padding-top: 20px;
+    flex-grow: 1;
+    font-size: 16px;
+    color: #333333B3;
+}
+.card-subject{
+    font-size: 20px;
+    color: #333333;;
+}
+
+
+.user-name{
+    display: inline;
+    font-weight: 800;
+    font-size: 1.25rem;
+}
+.user-date{
+    float: right;
+    font-weight: 800;
+    font-size: 0.75rem;
+    padding-top: 5px;
+}
+
+@media (max-width: 632px) {
+//    .card-container{
+//     font-size: 10px;
+//    }
+//    .card-title .user-name  .user-date {
+//     font-size: 10px;
+//    }
+//    .avtar-img{
+//     height: 30px;
+//     width: 30px;
+//    }
+//    .card-body{
+//     padding-top: 5px;
+//    }
+//    .user-date{
+//     float:none
+//    }
+  }

@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SideNavbarComponent } from './components/side-navbar/side-navbar.component';
+import { CardsComponent } from './components/cards/cards.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SideNavbarComponent,
+    CardsComponent
   ],
   imports: [
     BrowserModule,

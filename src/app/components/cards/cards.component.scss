@@ -51,20 +51,30 @@
 }
 
 @media (max-width: 632px) {
-//    .card-container{
-//     font-size: 10px;
-//    }
-//    .card-title .user-name  .user-date {
-//     font-size: 10px;
-//    }
-//    .avtar-img{
-//     height: 30px;
-//     width: 30px;
-//    }
+   .card-subject{
+    font-size: 12px;
+   }
+   .user-name{
+    font-size: 12px;
+   }
+   .card-content{
+    font-size: 10px;
+   }
+   .user-date{
+    font-size: 12px;
+    margin-left: 20px;
+   }
+   .card-name{
+    font-size: 2px;
+   }
+   .avtar-img{
+    height: 20px;
+    width: 20px;
+   }
 //    .card-body{
 //     padding-top: 5px;
 //    }
-//    .user-date{
-//     float:none
-//    }
+   .user-date{
+    float:none
+   }
   }
